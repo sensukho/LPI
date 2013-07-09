@@ -1,0 +1,4 @@
+landing_pages_complacelas:
+    resource: "@LandingPagesComplacelasBundle/Resources/config/routing.yml"
+    prefix:   /
+
