@@ -1,4 +1,12 @@
-landing_pages_complacelas:
-    resource: "@LandingPagesComplacelasBundle/Resources/config/routing.yml"
+landing_pages_chatearenvivo_complacelas:
+    resource: "@LandingPagesChatearenvivoComplacelasBundle/Resources/config/routing.yml"
+    prefix:   /
+
+landing_pages_todosganan_gadgets:
+    resource: "@LandingPagesTodosgananGadgetsBundle/Resources/config/routing.yml"
+    prefix:   /
+
+landing_pages_core:
+    resource: "@LandingPagesCoreBundle/Resources/config/routing.yml"
     prefix:   /
 

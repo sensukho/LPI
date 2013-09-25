@@ -1,5 +1,0 @@
-landing_pages_complacelas_homepage:
-    pattern:  /inicio/{country}.{_format}
-    defaults: { _controller: LandingPagesComplacelasBundle:Default:index, _format : html }
-    requirements:
-        _format: html
