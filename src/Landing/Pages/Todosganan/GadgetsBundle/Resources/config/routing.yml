@@ -1,3 +1,0 @@
-landing_pages_todosganan_gadgets_homepage:
-    pattern:  /hello/{name}
-    defaults: { _controller: LandingPagesTodosgananGadgetsBundle:Default:index }

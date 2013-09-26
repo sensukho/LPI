@@ -1,0 +1,94 @@
+.chica {
+    background-image: url("../../../img/web/mx/web_01.png");
+    background-repeat: no-repeat;
+    height: 509px;
+    left: -20px;
+    position: relative;
+    top: 30px;
+    *top: 26px;
+    width: 369px;
+}
+
+.chica2 {
+    background-image: url("../../../img/web/mx/web_02.png");
+    background-repeat: no-repeat;
+    height: 509px;
+    left: -20px;
+    position: relative;
+    top: 30px;
+    width: 369px;
+}
+.chica3 {
+    background-image: url("../../../img/web/mx/web_03.png");
+    background-repeat: no-repeat;
+    height: 509px;
+    left: -20px;
+    position: relative;
+    top: 30px;
+    width: 369px;
+}
+.mujeres {
+    background-image: url("../../../img/web/mx/web_07.png");
+    height: 75px;
+    width: 520px;
+    position: relative;
+    top: -200px;
+    left: -74px;
+    background-repeat: no-repeat;
+}
+.sexy {
+    background-image: url("../../../img/web/web_20.png");
+    height: 122px;
+    width: 165px;
+    position: relative;
+    top: 387px;
+    left: -18px;
+    background-repeat: no-repeat;
+}
+/*#### SECCION DEL TOOLTIP #####*/
+.tooltip{
+  cursor: help;
+  text-decoration: underline !important;
+  color: #FFF;
+  font-size: 11px;
+  font-family: Arial;
+}
+.tooltip span {
+   background-color: #FFFFFF;
+   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+   border: 2px solid #CCCCCC;
+   border-radius: 4px 4px 4px 4px;
+   bottom: 70px;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+   left: 50%;
+   opacity: 0.9;
+   padding: 10px;
+   position: absolute;
+   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+   display: none;
+   width: 230px;
+   z-index: 999;
+   visibility: visible !important;/*En el caso de que no se quiera mostarr el tooltip*/
+}
+/*.tooltip:hover span{
+  visibility: visible;
+}*/
+
+.tooltip span:before,
+.tooltip span:after{
+  position: absolute;
+  z-index: 1000;
+  bottom: -7px;
+  left: 50%;
+  margin-left: -8px;
+  border-top: 8px solid #ddd;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 0;
+  text-decoration: underline;
+}
+
+.tooltip span:before{
+  border-top-color: #ccc;
+  bottom: -8px;
+}

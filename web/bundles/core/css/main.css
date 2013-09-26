@@ -1,0 +1,33 @@
+
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+.bg-girl{
+	background-image:url('/bundles/core/img/bg-h.jpg');
+	height: 730px;
+}
+
+@media(min-width:1200px){
+	.bg-girl{
+		background-image:url('/bundles/core/img/bg-h.jpg');
+		height: 730px;
+	}
+}
+
+@media(max-width: 979px) and (min-width: 768px){
+		.bg-girl{
+			background-image:url('/bundles/core/img/bg-h.jpg');
+			height: 730px;
+		}
+}
+
+@media(max-width:767px){
+	.bg-girl{
+		background-image:url('/bundles/core/img/bg-l.png');
+		background-repeat: no-repeat;
+		background-position: center;
+		height: 600px;
+	}
+}

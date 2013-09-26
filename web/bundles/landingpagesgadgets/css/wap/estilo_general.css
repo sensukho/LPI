@@ -1,0 +1,466 @@
+body {
+	background-color:#252525;
+	font-family: arial;
+    color: #FFFFFF;
+    margin: 0;
+	font-family: Arial,Helvetica,sans-serif;   
+}
+.mainWrapper{
+   width: 320px;
+   margin: 0 auto;
+   background-color: #48ACFC;
+}
+.mainWrapper p{
+	margin: 0;
+}
+.ingresaCel{
+	font-size: 18px;
+	color: #116FC0;
+	margin-top: 5px !important;
+}
+.header  { 
+ 	background: #ffffff; 
+ 	color: green; 
+ 	border-bottom: solid 1px black; 
+ 	margin: 0 0 5px 0; 
+ 	padding: 2px; 
+ 	text-align:center;
+}
+.headTitle, .headTitle1, .headTitle2 {
+	height: 46px;
+}
+.headTitle1 {
+	height: 35px;
+}
+.headTitle2 {
+	height: 309px;
+}
+.sectionBtns{
+	width: 100%;
+	height: 163px;
+	background-color: #48ACFC;
+}
+.sectionBtnsL{
+	width: 160px;
+	height: 163px;
+	float: left;
+}
+.footer  { 
+	background: #fff; 
+	color: green; 
+	border-top: solid 1px black; 
+	margin: 10px 0 0 0; 
+}
+.links {
+    color: #FFFFFF;
+    font-size: 11px;
+    font-weight: bold;
+    position: relative;
+    top: -8px;
+}
+a {
+    text-decoration: none;
+}
+
+.legalesSuperior{
+font-size: 10px;	
+}        
+.company { 
+    font-weight: bold; 
+}
+
+hr	{ 
+	clear: both; 
+	border:solid; 
+	border-width:1px; 
+	border-bottom-color:#ffffff; 
+	border-top-color:#ffffff; 
+	border-left-color:#ffffff; 
+	border-right-color:#ffffff;
+}
+        
+.top-news img { 
+	float: left; 
+	margin-right: 5px; 
+}
+
+.top-news h3, .news h3 { 
+	font-size: large; 
+	font-weight: bold; 
+}
+
+.accesskey { 
+	text-decoration: underline; 
+}
+
+a { 
+	text-decoration: none; 
+}
+
+.validation { 
+	margin-top: 10px; 
+}
+
+.product img { 
+	float: left; 
+	margin-right: 5px; 
+}
+
+.product h3, .news h3 { 
+	font-size: large; 
+	font-weight: bold; 
+}
+#atencion{
+	background-color: #48ACFC;
+	height: auto;
+	margin-top: 20px;
+}
+
+
+
+
+
+
+.tabla {
+	width:100%; 
+	background-color:#FFFFFF;
+}
+
+.3pxheight {
+	height:3px;
+}
+
+.littleline {
+	background-color: #000000; 
+	height:4px;
+}
+
+
+
+
+.headertitle {
+	color:#000000; 
+	text-align:center; 
+	font-weight:bold; 
+	background-color:#ffffff;
+}
+
+.copyright {
+	color:#000000; 
+	background-color: #FFFFFF; 
+	text-align:left; 
+	vertical-align: middle;
+}
+
+.blacklinks {
+	color:#000000;
+}
+
+.blacklinks:link {
+	color:#000000; 
+	text-decoration:underline;
+}
+
+.blacklinks:visited {
+	color:#000000; 
+	text-decoration:underline;
+}
+
+.imagecenter {
+	text-align:center;
+}
+/*
+*********************************************
+*/
+.span1
+{
+   color: red;
+   font-size: 2em;
+}
+.span2
+{
+   color: red;
+}
+.span3
+{
+   color: red;
+   font-size: 1.4em;
+}
+.pinkParagraph
+{
+   background-color: #FF00F0;
+   text-align: left;
+   font-weight: 900;
+   padding-left: 15px;
+}
+.fourCols
+{
+   float: left;
+   width: 25%;
+   text-align: center;
+   margin: 0 0 7px 0;
+}
+.leftColTight
+{
+   float: left;
+   width: 25%;
+}
+.rightColWide
+{
+   float: left;
+   width: 75%;
+}
+.rightColWide p
+{
+   text-align: left;
+}
+.blueParagraph
+{
+   background-color: #011EFE;
+   clear: both;
+   text-align: left;
+   font-weight: 900;
+   padding-left: 15px;
+}
+.greenParagraph
+{
+   background-color: #44960E;
+   clear: both;
+   text-align: left;
+   font-weight: 900;
+   padding-left: 15px;
+}
+.yellowParagraph
+{
+   color: #E9EB00;
+}
+.grayDiv
+{
+   background-color: #4C4A4B;
+   clear: both;
+}
+.moreChats
+{
+   margin-left: 30px; 
+}
+.moreChats p
+{
+   text-align: left;  
+}
+.moreChats p a:link, .moreChats p a:visited
+{
+   text-decoration: underline; 
+   font-size: 1em;
+   color: #3F9210;
+}
+.moreChats p a:hover
+{
+   text-decoration: none; 
+   font-size: 1em;
+   color: #3F9210;
+}
+.leftComponent
+{
+   width: 120px;
+   float: left;
+}
+.rightComponent
+{
+   float: left;
+   width: 180px;
+   margin-bottom: 10px;
+   margin-left: 5px;
+}
+.rightComponent p
+{
+   text-align: left;
+   margin-top: 0;
+}
+.rightComponent p a:link, .rightComponent p a:visited, rightComponent 
+{
+   text-decoration: underline; 
+   font-size: 1em;
+   color: #FFFFFF;
+}
+.rightComponent p a:hover
+{
+   text-decoration: none; 
+   font-size: 1em;
+   color: #FFFFFF;
+}
+.gralInput
+{
+   margin: 10px 0 0 0;
+}
+
+.colContainer, .colContainerConditions {
+   margin: 15px 0 0;
+   text-align: center;
+   font-size: 11px;
+   line-height: 12px;
+   background-color: #48ACFC;
+   width: 100%;
+}
+.colContainerConditions {
+   background-color: #fff;
+   width: 90%;
+   margin: 15px auto;
+}
+.colContainer p
+{
+   text-align: center;
+}
+
+p.centerParagraph
+{
+   text-align: center;
+}
+p.italic
+{
+	font-style:italic;
+	/*font-weight: 600;*/
+	font-size: 0.8em;
+}
+
+/*    *******************************************     */
+
+/* *******************************************    */
+.littleline1Pixel {
+	background-color: #2E95E4; 
+	height:1pt;
+	margin: 10px 15px;
+}
+
+.lightTxt
+{
+	font-weight: lighter;
+}
+.condicionesTxt
+{
+	font-size: 10px;
+	color: #a05515;
+}
+.mainWrapper ul
+{
+	margin: 0;
+}
+.generalTxt
+{
+	font-size: 1em;
+	text-align: left;
+	margin-left: 15px;
+}
+li
+{
+	font-size: 0.9em;
+}
+li a
+{
+	color: white;
+	font-size: 0.9em;
+}
+.blueTitle
+{
+	color :#01BCD6;
+	font-size: 1em;
+}
+.blueNumber
+{
+	color: #05D7F3;
+	font-size: 1.1em;
+}
+small
+{
+	font-size: 0.8em;
+}
+big small a
+{
+	color :#000000;
+	font-size: 0.8em;	
+}
+small a
+{
+	color :#01BCD6;
+	font-size: 1em;
+}
+.formContainer
+{
+	background-color: #fff;
+	text-align:center;
+}
+.whiteParagraph
+{
+	background-color: #FFFFFF;
+	color: #000000;
+	border-bottom: 4px solid #0557AB;
+	padding-top: 5px;
+}
+.whiteParagraph span
+{
+	color: #007BF3;
+	font-size: 22px;
+}
+.rightAnswer{
+	font-size: 15px;
+	color: #116FC0;
+}
+.rightAnswer span
+{
+	font-size: 25px;
+}
+
+.warrantyParagraph
+{
+	padding: 2px 0 7px 0;	
+}
+
+.footerWelcome
+{
+	text-align: center;
+}
+.welcomeTitle
+{
+	color: #0066BB;
+	font-size: 18px;
+}
+.welcomeSubtitle
+{
+	color: #0066BB;
+	font-size: 13px;
+}
+.welcomeSubtitle span
+{
+	color: #000000;
+}
+.yellowText
+{
+	color: #F2FC12;
+}
+.otrasPromociones
+{
+	font-weight: bold;
+	font-size: 14px;
+}
+#clientText p
+{
+	color: #000000;
+}
+.blackLink
+{
+	color: #000000;
+	font-size: 12px;
+}
+.tituloClientes
+{
+	color: #FFFFFF;
+	font-size: 18px;
+}
+.tituloCine{
+	background-color: #FFF;
+	margin-bottom: 0px; 
+	font-size: 18px;
+	color: #000;
+}
+.content{
+	text-align:center;
+}

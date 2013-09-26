@@ -1,3 +1,15 @@
+landing_pages_todosganan_site_rewards:
+    resource: "@LandingPagesTodosgananSiteRewardsBundle/Resources/config/routing.yml"
+    prefix:   /
+
+landing_pages_todosganan_site_subscribe:
+    resource: "@LandingPagesTodosgananSiteSubscribeBundle/Resources/config/routing.yml"
+    prefix:   /
+
+landing_pages_todosganan_site_home:
+    resource: "@LandingPagesTodosgananSiteHomeBundle/Resources/config/routing.yml"
+    prefix:   /
+
 landing_pages_chatearenvivo_complacelas:
     resource: "@LandingPagesChatearenvivoComplacelasBundle/Resources/config/routing.yml"
     prefix:   /

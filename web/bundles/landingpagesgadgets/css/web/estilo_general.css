@@ -1,0 +1,395 @@
+@charset "UTF-8";
+/* CSS Document */
+body {
+	background-image:url(../../img/web/tweed.png);	
+}
+.container {
+	margin: auto;
+	height: 620px;
+	width: 1096px;
+}
+.container_left {
+	margin-top: 0px;
+	height: 650px;
+	width: 800px; 
+	float:left;
+}
+.container_right {
+	background-image: url('../../img/web/web_right.png');
+	background-repeat: no-repeat;
+	height: 650px;
+	width: 296px;
+	float: right;
+	text-align: center;
+}
+.container_modulo {
+	height: 229px;
+	width: 231px;
+	margin-top:188px;
+	margin-left:40px;
+}
+.container_legal {
+	margin-top: -80px;
+	height: 70px;
+	width: 800px;
+	float:right;
+}
+.legales {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #FFF;
+	text-align: center;
+	height: 70px;
+	width: 1100px;
+	padding-top:5px;
+	margin-left:20px;
+	float: right;	
+}
+/*.legalesSuperior {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 11px;
+	color: #ececec;
+	width: 400px;
+	margin-left:-50px;
+}*/
+#legalinferior {
+	position:relative;
+	top:5px;	
+    bottom: 0;
+	left:0;
+    width: auto;
+	height:auto;
+	overflow: visible;
+	padding-top:25px;
+	font-family: "Arial","Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
+	padding-left:5px;
+	padding-right:5px;
+	margin-top:15px;
+}
+
+#legalinferior p{
+	font-size:10px;
+	color:#b9b9ba;
+	text-align:center;
+	line-height:10px;
+}
+.bannerwelcome {
+	background-position: center top;
+	height: 50px;
+	width: 180px;
+	margin-left: 25px;
+}
+.acepto_terminoscondiciones{
+	font-size:11px; 
+	color:#000000; 
+	font-family:Arial, Helvetica, sans-serif; 
+	text-align:center;
+	margin-top:10px;
+}
+.button_ingreso{
+	background-position:center;
+	height:39px;
+	width: 231px;
+}
+.button_ingresoPIN{
+	background-image:url('../../img/web/web_btn_enviar02.gif');
+	background-repeat:no-repeat;
+	background-position:center;
+	height:39px;
+	width: 231px; 
+}
+/*More CSS*/
+.operadores{
+	margin: 0 auto 5px;
+}
+img{
+	border: none;
+}
+.termAndCond{
+	margin: -10px auto 5px;
+	font-size: 12px;
+	color: #fff;
+}
+#operador{
+	width: auto;
+	text-align: center;
+}
+#msisdn, #pin{
+    height: 30px;
+    border: 1px solid #DDDDDD;
+    color: #000000;
+    font-weight: normal;
+    width: 270px;
+    padding-left: 12px;
+    font-size: 14px;
+    text-align:center;
+}
+/*#### INICIO SECCION DEL popUP #####*/
+#element_to_pop_up { 
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    color: #000;
+    display: none; 
+    padding: 20px;
+    min-width: 400px;
+    min-height: 120px;
+    width: 430px;
+    top: 225px !important;
+    border: 2px solid #CCCCCC;
+    border-radius: 4px 4px 4px 4px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+    opacity: 0.9 !important;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    text-align: justify;
+}
+.b-close{
+    cursor: pointer;
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+.b-modal{
+	background-color: transparent !important;
+}
+a.my-button{
+	color: #fff;	
+}
+
+/*#### FIN SECCION DEL popUP #####*/	
+/*#### INICIO SECCION DEL TOOLTIP #####*/
+.tooltip{
+  cursor: text;
+  text-decoration: none;
+  color: #000;
+}
+.tooltip span {
+   background-color: #FFFFFF;
+   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+   border: 2px solid #CCCCCC;
+   border-radius: 4px 4px 4px 4px;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+   left: 50%;
+   opacity: 0.9;
+   padding: 10px;
+   position: absolute;
+   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+   visibility: hidden !important;
+   display: none;
+   width: 230px;
+   z-index: 999;
+   color: black;
+}
+/*.tooltip:hover span{
+  visibility: visible;
+}*/
+
+.tooltip span:before,
+.tooltip span:after{
+  position: absolute;
+  z-index: 1000;
+  bottom: -7px;
+  left: 50%;
+  margin-left: -8px;
+  border-top: 8px solid #ddd;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 0;
+}
+
+.tooltip span:before{
+  border-top-color: #ccc;
+  bottom: -8px;
+}
+/*#### FIN SECCION DEL TOOLTIP #####*/
+.legalesSuperior {
+	margin:auto;
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	overflow:hidden;
+	background-color:#000;
+	z-index:2;
+}
+.legalesSuperior p {
+	color:#b9b9ba;
+	text-align:center;
+	font-family:"Arial", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
+	font-size:10px;
+}
+#logotexto {
+	margin:auto;
+	width:90%;
+	text-align:center;
+	margin-top:-15px;
+}
+#logotexto img{
+	width:70%;
+}
+#cont {
+	margin-top:5%;
+	
+}
+#imgcont img{
+	width:70%;	
+	
+}
+.shadow {
+	-moz-box-shadow:    inset 0 0 5px #000000;
+   -webkit-box-shadow: inset 0 0 2px #000000;
+   box-shadow:         inset 0 0 5px #000000;
+	
+}
+#cta {
+	background-color:#fafafa;
+	margin:auto;
+	margin-top:35px;
+}
+#ctatxt {
+	padding-top:10px;
+	
+}
+#ctatxt h3 {
+	font-family: "Arial","Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
+	text-align:center;
+
+}
+#ctabtn {
+	z-index:4;
+	width:60%;
+	margin:auto;
+	
+}
+/***** Screen Bigger than 960px *****/
+@media only screen and (min-width:1200px) {
+
+	.example										{ margin:0; padding:0; }
+
+	#legalinferior p { line-height:9px;
+	}
+
+
+	#legalinferior {
+
+		margin-top:20px;
+		
+	}
+
+	#imgcont img{
+		width:65%;
+
+	}
+
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+
+	.example										{ margin:0; padding:0; }
+
+	#msisdn, #pin{
+	    height: 20px;
+	    border: 1px solid #DDDDDD;
+	    color: #000000;
+	    font-weight: normal;
+	    width: 150px;
+	    padding-left: 12px;
+	    font-size: 14px;
+	    text-align:center;
+	}
+
+}
+
+/***** Tablet (Smaller than 959px) *****/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+	.example										{ margin:0; padding:0; }
+
+	#legalinferior p { line-height:10px;
+	}
+
+	#legalinferior {
+	margin-top:40px;	
+	}
+
+	#imgcont img{
+		width:65%;
+
+	}
+
+	#msisdn, #pin{
+	    height: 20px;
+	    border: 1px solid #DDDDDD;
+	    color: #000000;
+	    font-weight: normal;
+	    width: 150px;
+	    padding-left: 12px;
+	    font-size: 14px;
+	    text-align:center;
+	}
+}
+
+
+/***** Phone (portrait 300px) *****/
+@media only screen and (max-width: 767px) {
+
+	.example										{ margin:0; padding:0; }
+
+	#legalinferior p {
+		 line-height:9px;
+		 font-size:9px;
+		 }
+
+	#legalinferior {
+		 margin-top:15px;
+	     margin-bottom:0px;
+		
+	}
+
+	#logotexto img{
+		width:110%;
+		
+	}
+
+	#imgcont img{
+		width:70%;
+
+	}
+}
+
+	
+/***** Phone (landscape 420px) *****/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	.example										{ margin:0; padding:0; }
+
+	#legalinferior p{
+		font-size:9px;
+		line-height:9px;		
+	}
+
+	#legalinferior {
+
+	padding-top:40px;	
+	}
+
+	#msisdn, #pin{
+	    height: 35px;
+	    border: 1px solid #DDDDDD;
+	    color: #000000;
+	    font-weight: normal;
+	    width: 400px;
+	    padding-left: 12px;
+	    font-size: 14px;
+	    text-align:center;
+	}
+}
+
+
+
+/***** Retina *****/
+@media only screen and (-webkit-min-device-pixel-ratio:1.5) {
+
+.example										{ margin:0; padding:0; }
+
+}

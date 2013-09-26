@@ -1,0 +1,46 @@
+
+
+hr {
+  color: blue
+}
+
+p {
+   font-size: 0.9em;
+   text-align: center;
+}
+
+.imagenFondo {	
+	background: url('http://wap.movilaction.com/telcel-ligue/img/bg_200x360.jpg') no-repeat;
+	width: 14em; 
+	height: 12em;
+	border-spacing: 1.4em;
+	padding: 0em;
+}
+
+
+a {
+	font-size: 0.7em;
+}
+
+smartLink {
+	font-size: 0.9em;
+}
+
+.telefono { 
+		width: 14em; 
+		height: 2em; 
+}
+
+.enviarMSISDN{
+		width: 14em; 
+		height: 2em; 	
+		font-size:0.7em;
+        color:white;
+        background:red;
+        border:0px;	
+}
+.enviar { 
+		width: 10em; 
+		height: 2em; 
+}
+

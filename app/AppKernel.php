@@ -19,6 +19,9 @@ class AppKernel extends Kernel
             new Landing\Pages\CoreBundle\LandingPagesCoreBundle(),
             new Landing\Pages\Todosganan\GadgetsBundle\LandingPagesTodosgananGadgetsBundle(),
             new Landing\Pages\Chatearenvivo\ComplacelasBundle\LandingPagesChatearenvivoComplacelasBundle(),
+            new Landing\Pages\Todosganan\Site\HomeBundle\LandingPagesTodosgananSiteHomeBundle(),
+            new Landing\Pages\Todosganan\Site\SubscribeBundle\LandingPagesTodosgananSiteSubscribeBundle(),
+            new Landing\Pages\Todosganan\Site\RewardsBundle\LandingPagesTodosgananSiteRewardsBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {

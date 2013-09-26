@@ -1,0 +1,28 @@
+.errorDigitos{
+	background-image: url("../../../img/wap/do/wap_error05.png");
+	width: 300px;
+	height: 38px;
+	background-repeat: no-repeat;
+}
+.section1E {
+    color: white;
+    font-family: arial black;
+    font-size: 19px;
+    margin-bottom: -4px;
+    padding: 2px;
+    background-image: url("../../../img/wap/do/wap_00.png");
+    background-repeat: no-repeat;
+    height: 33px;
+    margin-left: 38px;
+}
+#headW, #headW1 {
+    background-color: #000000;
+    background-image: url("../../../img/wap/do/wap_01.jpg");
+    background-repeat: no-repeat;
+    height: 150px;
+    margin-left: 35px;
+}
+#headW1 {
+    background-image: url("../../../img/wap/do/wap.png");
+    height: 65px;
+}

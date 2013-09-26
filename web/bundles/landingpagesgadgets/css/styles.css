@@ -1,0 +1,62 @@
+body {
+	margin-left: 0px;
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+	/*overflow: hidden;*/
+	background-image: url(../img/web/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 820px;
+}
+.bg_gral {
+	background-image: url(../img/web/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	height: 100%;
+	width: 100%;
+	margin: auto;
+	/*overflow: hidden;*/
+}
+.container {
+	width: 1064px;
+	margin: auto;
+	overflow: hidden;
+	position: relative;
+}
+.legales {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 10px;
+	color: #666;
+	width: 900px;
+	margin: auto;
+}
+.bienvenida_banner {
+	margin: auto;
+	height: 150px;
+	width: 1064px;
+	background-image: url(../img/web/bienvenida_02.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	text-align: center;
+	padding-top: 100px;
+}
+.banners {
+	border: 2px solid #20A4FC;
+}
+.formContainer
+{
+	position: absolute;
+	left: 550px;
+	top: 300px;
+}
+.formContainer form, .formContainer a
+{
+	float: left;
+}
+
+.formContainer a
+{
+	margin-left: 20px;
+	margin-top: -11px;
+}

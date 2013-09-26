@@ -1,0 +1,235 @@
+body {
+	background-color: #000;
+	margin: 0;
+	font-family: Arial;
+}
+.mainWrapper {
+	width: 320px;
+	margin: 0 auto;
+}
+.section1 {
+    color: white;
+    font-size: 19px;
+    font-family: arial black;
+    padding: 2px;
+    margin-bottom:-4px;
+}
+
+.section2{
+	width: 100%;
+	margin: -10px auto;
+	background-color: #000;
+}
+.textFormat{
+	color: #fff;
+	font-size: 15px;
+}
+.gralInput{
+   margin: 0;
+   height: 25px;
+   width: 220px;
+   text-align: center;
+}
+.textFormat2 {
+  color: #fff;
+  font-size: 14px;
+  font-weight: normal;
+  font-family: arial;
+
+}
+.legal{
+	font-weight: normal;
+	color: #FCDEE2;
+	font-size: 9px;
+	font-family: arial;
+	font-style: normal;
+}
+
+.links{
+	font-weight: bold;
+	font-size: 11px;
+	color: #EF3188;
+	position : relative;
+	top: -8px;
+}
+.pregunta{
+	font-weight: normal;
+	color: #000;
+	font-family: arial;
+	font-size: 20px;
+	font-weight: lighter;
+}
+.wel1{
+	font-family: Arial;
+	color: #fff;
+	font-size: 20px;
+}
+#contenedorAtencion {
+	height: 300px;
+	text-align: justify;
+	background-color: #000;
+}
+
+.legales {
+    font-weight: normal;
+    color: white;
+    background-color: black;
+    font-size: 10px;
+    font-family: arial;
+    font-style: normal;
+    text-align: center;
+    padding: 0px;
+    margin-top: -10px;
+}
+
+.legalesSuperior {
+    background-color: black;
+    color: #FFF;
+    font-size: 11px;
+    height: 19px;
+    padding-top: 1px;
+    width: 350px;
+    margin-left: -14px;
+}
+
+
+.header{
+	font-weight: normal;
+	color: #0292D4;
+	font-size: 12px;
+	font-family: arial;
+	font-style: normal;
+	margin-bottom: -5px;
+	font-weight: bold;
+}
+#derechos {
+	background-color: #000;
+	line-height: 35px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 11px;
+	font-family: arial;
+	font-weight: normal;
+	color: #676767;
+}
+
+#condiciones {
+  color: #FFFFFF;
+  font-family: arial;
+  font-size: 12px;
+  font-weight: normal;
+  padding: 0 23px 9px 8px;
+}
+
+#atencion {
+	font-size: 12px;
+	font-family: arial;
+	font-weight: normal;
+	background-color: #000;
+}
+.atencionTitulo{
+	font-size: 16px;
+	padding-top : 10px;
+	font-family : arial;
+	font-weight :bold;
+	text-align: center;
+	color:#fff;
+	width: 320px;
+}
+.atencionContenido{
+	font-size: 11px;
+	position: relative;
+	left : 20px;
+	padding-top : 10px;
+	font-family : arial;
+	font-weight :normal;
+	text-align: center;
+	color:#fff;
+	width: 260px;
+	margin-top: -20px;
+}
+
+.littlepixel{
+	height: 4px;
+	background-color: #EF3188;
+
+}
+
+#head{
+	background-color: #000;
+}
+
+a{
+	text-decoration: none;
+}
+.forma{
+	background-color: #EF3188;
+}
+
+#operador{
+	width:200px;
+	text-align:center;
+}
+.clientes {
+    color: white;
+    font-size: 11px;
+    padding: 10px;
+}
+.condiciones{
+    color: #ED1E79;
+    font-size: 10px;
+    padding: 10px;
+}
+
+.banner{
+	background-image: url('../../img/wap/banner.gif');
+	width:280px;
+	height: 70px;
+}
+
+.errorBL{
+	background-image: url('../../img/wap/wap_error01.png');
+	background-repeat: no-repeat;
+	width: 300px;
+	height: 64px;
+}
+
+.errorInvalido{
+	background-image: url('../../img/wap/wap_error02.png');
+	background-repeat: no-repeat;
+	width: 300px;
+	height: 64px;
+	margin-bottom:-15px;
+}
+
+.errorYainscrito{
+	background-image: url('../../img/wap/wap_error03.png');
+	background-repeat: no-repeat;
+	width: 300px;
+	height: 64px;
+	margin-bottom:-15px;
+}
+
+.errorDesconocido{
+	background-image: url('../../img/wap/wap_error04.png');
+	background-repeat: no-repeat;
+	width: 300px;
+	height: 64px;
+	padding:5px;
+}
+
+.error4digitos{
+	background-image: url('../../img/wap/wap_error06.png');
+	background-repeat: no-repeat;
+	width: 300px;
+	height: 64px;
+	margin-bottom:-15px;
+}
+
+.errorPinInvalido{
+	background-image: url('../../img/wap/wap_error07.png');
+	background-repeat: no-repeat;
+	width: 300px;
+	height: 64px;
+	margin-bottom:-15px;
+}

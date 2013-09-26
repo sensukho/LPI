@@ -1,0 +1,316 @@
+/* 
+* Amazium V1.3
+* Copyright 2012, Mike Ballan
+* www.amazium.co.uk
+*/
+
+/***** Screen 960px *****/
+
+
+.top			 								{ margin:0 auto; margin-top:30px; }	
+.base											{ margin:0 auto; margin-bottom:5px; }	
+span.example									{ margin-bottom:5px; padding:5px 0 5px 0; background-color:#eee; text-align:center; width:100%; display:block; }
+
+
+body {
+	background-image:url(../../img/web/tweed.png);	
+	}
+	
+#msisdn, #pin{
+    height: 30px;
+    border: 1px solid #DDDDDD;
+    color: #000000;
+    font-weight: normal;
+    width: 270px;
+    padding-left: 12px;
+    font-size: 14px;
+    text-align:center;
+}
+
+/*#### SECCION DEL TOOLTIP #####*/
+.tooltip{
+  cursor: text;
+  text-decoration: none;
+}
+.tooltip span {
+  visibility: hidden;/*En el caso de que no se quiera mostarr el tooltip*/
+ display: none;
+ color: #000;
+}
+
+/*#### SECCION DEL TOOLTIP #####*/
+.tooltip{
+  cursor: help;
+  text-decoration: underline !important;
+  color: #FFF;
+  font-size: 11px;
+  font-family: Arial;
+}
+.tooltip span {
+   background-color: #FFFFFF;
+   background-image: linear-gradient(rgba(255, 255, 255, 0.5), rgba(255, 255, 255, 0));
+   border: 2px solid #CCCCCC;
+   border-radius: 4px 4px 4px 4px;
+   bottom: 70px;
+   box-shadow: 0 1px 2px rgba(0, 0, 0, 0.4), 0 1px 0 rgba(255, 255, 255, 0.5) inset;
+   left: 50%;
+   opacity: 0.9;
+   padding: 10px;
+   position: absolute;
+   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.4);
+   display: none;
+   width: 230px;
+   z-index: 999;
+   visibility: visible !important;/*En el caso de que no se quiera mostarr el tooltip*/
+}
+/*.tooltip:hover span{
+  visibility: visible;
+}*/
+
+.tooltip span:before,
+.tooltip span:after{
+  position: absolute;
+  z-index: 1000;
+  bottom: -7px;
+  left: 50%;
+  margin-left: -8px;
+  border-top: 8px solid #ddd;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 0;
+  text-decoration: underline;
+}
+
+.tooltip span:before{
+  border-top-color: #ccc;
+  bottom: -8px;
+}
+/*#### FIN SECCION DEL TOOLTIP #####*/
+#header {
+	margin:auto;
+	position:absolute;
+	top:0px;
+	left:0px;
+	right:0px;
+	overflow:hidden;
+	background-color:#000;
+	z-index:2;
+}
+
+#header p {
+	color:#b9b9ba;
+	text-align:center;
+	font-family:"Arial", "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
+	font-size:10px;
+}
+
+#logotexto {
+	margin:auto;
+	width:90%;
+	text-align:center;
+	margin-top:-30px;
+}
+
+#logotexto img{
+	width:70%;
+}
+
+#cont {
+	margin-top:5%;
+	
+}
+
+#imgcont img{
+	width:70%;	
+	
+}
+
+.shadow {
+	-moz-box-shadow:    inset 0 0 5px #000000;
+   -webkit-box-shadow: inset 0 0 2px #000000;
+   box-shadow:         inset 0 0 5px #000000;
+	
+}
+
+#cta {
+	background-color:#fafafa;
+	margin:auto;
+	margin-top:35px;
+}
+
+#ctatxt {
+	padding-top:10px;
+	
+}
+
+
+
+
+#ctatxt h3 {
+	font-family: "Arial","Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
+	text-align:center;
+
+}
+
+#ctabtn {
+	z-index:4;
+	width:60%;
+	margin:auto;
+	
+}
+
+#legalinferior {
+	position:relative;
+	top:5px;	
+    bottom: 0;
+	left:0;
+    width: auto;
+	height:auto;
+	overflow: visible;
+	padding-top:25px;
+	font-family: "Arial","Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
+	padding-left:5px;
+	padding-right:5px;
+	margin-top:15px;
+}
+
+#legalinferior p{
+	font-size:10px;
+	color:#b9b9ba;
+	text-align:center;
+	line-height:10px;
+}
+
+
+/***** Screen Bigger than 960px *****/
+@media only screen and (min-width:1200px) {
+
+	.example										{ margin:0; padding:0; }
+
+	#legalinferior p { line-height:9px;
+	}
+
+
+	#legalinferior {
+
+		margin-top:20px;
+		
+	}
+
+	#imgcont img{
+		width:65%;
+
+	}
+
+}
+
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+
+	.example										{ margin:0; padding:0; }
+
+	#msisdn, #pin{
+	    height: 20px;
+	    border: 1px solid #DDDDDD;
+	    color: #000000;
+	    font-weight: normal;
+	    width: 150px;
+	    padding-left: 12px;
+	    font-size: 14px;
+	    text-align:center;
+	}
+
+}
+
+/***** Tablet (Smaller than 959px) *****/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+
+	.example										{ margin:0; padding:0; }
+
+	#legalinferior p { line-height:10px;
+	}
+
+	#legalinferior {
+	margin-top:40px;	
+	}
+
+	#imgcont img{
+		width:65%;
+
+	}
+
+	#msisdn, #pin{
+	    height: 20px;
+	    border: 1px solid #DDDDDD;
+	    color: #000000;
+	    font-weight: normal;
+	    width: 150px;
+	    padding-left: 12px;
+	    font-size: 14px;
+	    text-align:center;
+	}
+}
+
+
+/***** Phone (portrait 300px) *****/
+@media only screen and (max-width: 767px) {
+
+	.example										{ margin:0; padding:0; }
+
+	#legalinferior p {
+		 line-height:9px;
+		 font-size:9px;
+		 }
+
+	#legalinferior {
+		 margin-top:15px;
+	     margin-bottom:0px;
+		
+	}
+
+	#logotexto img{
+		width:110%;
+		
+	}
+
+	#imgcont img{
+		width:70%;
+
+	}
+}
+
+	
+/***** Phone (landscape 420px) *****/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	
+	.example										{ margin:0; padding:0; }
+
+	#legalinferior p{
+		font-size:9px;
+		line-height:9px;		
+	}
+
+	#legalinferior {
+
+	padding-top:40px;	
+	}
+
+	#msisdn, #pin{
+	    height: 35px;
+	    border: 1px solid #DDDDDD;
+	    color: #000000;
+	    font-weight: normal;
+	    width: 400px;
+	    padding-left: 12px;
+	    font-size: 14px;
+	    text-align:center;
+	}
+}
+
+
+
+/***** Retina *****/
+@media only screen and (-webkit-min-device-pixel-ratio:1.5) {
+
+.example										{ margin:0; padding:0; }
+
+}

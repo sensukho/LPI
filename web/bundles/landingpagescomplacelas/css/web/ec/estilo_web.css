@@ -1,0 +1,52 @@
+.chica {
+    background-image: url("../../../img/web/ec/web_01.png");
+     background-repeat: no-repeat;
+    height: 509px;
+    left: -20px;
+    position: relative;
+    top: 30px;
+    *top: 26px;
+    width: 369px;
+}
+
+.chica2 {
+    background-image: url("../../../img/web/ec/web_02.png");
+     background-repeat: no-repeat;
+    height: 509px;
+    left: -20px;
+    position: relative;
+    top: 30px;
+    width: 369px;
+}
+.chica3 {
+    background-image: url("../../../img/web/ec/web_03.png");
+     background-repeat: no-repeat;
+    height: 509px;
+    left: -20px;
+    position: relative;
+    top: 30px;
+    width: 369px;
+}
+
+.mujeres {
+    background-image: url("../../../img/web/ec/web_07.png");
+    height: 75px;
+    width: 520px;
+    position: relative;
+    top: -200px;
+    left: -74px;
+    background-repeat: no-repeat;
+}
+
+.sexy {
+    background-image: url("../../../img/web/web_20.png");
+    height: 122px;
+    width: 165px;
+    position: relative;
+    top: 387px;
+    left: -18px;
+    background-repeat: no-repeat;
+}
+.tooltip{
+  color: #FFF !important;
+}

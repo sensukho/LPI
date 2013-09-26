@@ -1,0 +1,640 @@
+/* CSS Document */
+
+* {
+	margin: 0; 
+	padding: 0; 
+}
+
+body {
+	width:100%;
+	height:100%;
+	margin-bottom:0;
+	margin-left:0;
+	margin-right:0;
+	margin-top:0;
+	overflow-y:hidden;
+
+	
+}
+
+
+
+
+.tr { 
+	vertical-align: top;
+}
+
+#header {
+	margin:auto;
+	position:fixed;
+	top:0px;
+	left:0px;
+	height:56px;
+	right:0px;
+	overflow:hidden;
+	background-color:#2d8bcf;
+	z-index:12;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+}
+
+#logo {
+	position: fixed;
+	z-index:1550;
+	top:0;
+	float:left;
+}
+
+#elclub {
+	position:fixed;
+	z-index:1560;
+	top:0;
+	right:0;
+	float:right;
+	
+}
+
+
+#menu ul{
+list-style-type: none;
+margin: 0;
+padding-top: 17px;;
+float:right;
+margin-right:1%;
+}
+ 
+#menu ul li{
+list-style-type: none;
+color: #fff;
+display: inline;
+margin: 0;
+padding: 0 10px 0 10px;
+}
+ 
+#menu ul li a{
+text-decoration: none;
+list-style-type: none;
+color: #fff;
+display: inline;
+margin: 0;
+padding: 0;
+}
+ 
+#menu ul li a:hover{
+text-decoration: none;
+list-style-type: none;
+color:#CCC;
+display: inline;
+margin: 0;
+padding: 0;
+}
+
+
+.submenu {
+	position: absolute;
+	display: none;
+	
+}
+
+
+.submenu li:hover {
+	display: block;
+}
+	
+.submenu li ul li { 
+	float: none; 
+	display: inline; 
+}
+
+
+.facebook {
+	background:url(../img/fbsprite.png);
+    top:0;
+	background-repeat:no-repeat;
+	width:25px;
+	height:25px;
+	text-indent:-9999px;
+	display: block;
+	float:right;
+	margin-right:1%;
+	margin-top:16px;
+	z-index:15;
+
+	
+	
+}
+
+.facebook a{
+    background:0px, 0px;
+
+
+}
+
+.facebook:hover{
+	background-position:bottom;
+    cursor:pointer;
+	
+}
+
+
+
+
+
+.twitter {
+	background:url(../img/twttrsprite.png);
+	background-repeat:no-repeat;
+	width:25px;
+	height:25px;
+	text-indent:-9999px;
+	float:right;
+	margin-right:16%;
+	margin-top:16px;
+	
+}
+
+.twitter:hover {
+    background-position:bottom;
+    cursor:pointer;
+}
+
+
+#Stage {
+    position:fixed !important;
+    margin:auto;
+    z-index:1570;
+    right:0;
+    top:360px;
+    
+}
+
+#Stage:hover{
+    cursor:pointer;
+}
+
+
+#Stage2 {
+    position:fixed !important;
+    margin:auto;
+    z-index:1590;
+    right:0;
+    top:110px;
+    width:246px;
+    height:111px;
+
+}
+
+#Stage2:hover{
+    cursor:pointer;
+}
+
+
+#page-wrap {
+	width:5464px;
+	height:100%;
+	margin-top:0px;
+	
+}
+
+
+#inicio {
+	width:1280px;
+	height:100%;
+	vertical-align: top;
+	margin-top:0px;
+}
+
+#videoinicio {
+	margin-left:-39px;
+	margin-top:-10px;
+	position: relative;
+	z-index:-1;
+	float:left;
+	max-width:100%;
+
+}
+
+
+#videoinicio img {
+	max-width:75%;
+	
+	}
+
+
+#video {
+	width:30%;
+	margin-top: 230px;
+	position:absolute;
+	margin-left:203px;
+	z-index:2;
+}
+
+
+#video2 {
+	position:absolute;
+	margin-left:3155px;
+	margin-top:108px;
+	
+}
+
+
+#muchospremios {
+	margin:auto;
+	margin-top:-8%;
+	margin-left: 30px;
+	z-index:5;
+	float:left;
+}
+
+#muchospremios img {
+	max-width:60%;
+	
+}
+
+
+#caja {
+	float:right;
+	margin-top:-33%;
+	margin-right:14%;
+}
+
+
+#caja img {
+max-width:82%
+}
+
+
+#premios {
+	width:1366px;
+	height:100%;
+	vertical-align:middle;
+	margin-left:80px;
+	
+}
+
+#premiomensual {
+	float:left;
+	margin-top:3%;
+    margin-left:3%;
+	
+}
+
+
+#premiomensual img {
+    max-width:72%;
+}
+
+
+#premiosemanal {
+	float:right;
+	margin-right:10%;
+    margin-top:0;
+}
+
+#premiosemanal img {
+    max-width:81%;
+}
+
+
+#premiodiario img {
+    max-width:31%;    
+}
+
+
+#premiodiario {
+   margin-left:-20px;
+
+}
+
+
+#recompensas {
+	float:right;
+	margin-right:14%;
+	
+}
+
+
+#recompensas img {
+    max-width:73%;
+}
+
+
+#ganadores {
+	width:1366px;
+	height:100%;
+	vertical-align:top;
+	margin-left:80px;
+	
+}
+
+
+.ganadoreslinea {
+	display:inline;
+	max-height:60%;
+	margin-left:3%;
+	margin-top:-1%;
+	
+}
+
+#ganadorestop {
+	margin-top:6%;
+	margin-left:16%;
+}
+
+#ganadorestop img {
+    max-width:67%;
+}
+
+
+#ganadormensual {
+	float:left;
+	margin-left: 6%;
+	margin-top: 1%;
+	
+}
+
+#ganadormensual img {
+    max-width:65%;
+
+}
+
+
+#ganadorsemanal {
+	float:left;
+	margin-top:45px;
+    margin-left:-4%;
+	
+}
+
+#ganadorsemanal img {
+    max-width:71%;
+}
+
+
+#ganadordiario {
+	float: left;
+    margin-top:-10%;
+    margin-left:23%;
+	
+}
+
+
+#ganadordiario img {
+    max-width:70%;
+
+}
+
+.post {
+	width:1366px;
+	
+}
+
+#comoganar {
+	vertical-align:top;
+	width:1280px;
+	height:100%;
+	margin-left:80px;
+	
+}
+
+
+#video3 {
+	margin-left:600px;
+	margin-top:-16%;
+	
+}
+
+
+#txtocomoganar{
+	margin-left:80px;
+	margin-top:5%;
+
+	
+}
+
+#txtocomoganar img {
+    max-width:34%;
+}
+
+
+#bannerpremiomensual {
+	float:left;
+	margin-top:5%;
+	margin-left:12%;
+	padding-bottom:5px;
+}
+
+#bannerganadormensual {
+	float:left;
+	margin-top:5%;
+	margin-left:12%;
+	padding-bottom:5px;
+	
+}
+
+
+
+#lagaleriamensual {
+	float:left;
+	margin-top:0%;
+	margin-left:180px;
+	
+}
+
+#lagaleriaganadormensual {
+	float:left;
+	margin-top:7%;
+	margin-left:150px;
+	
+}
+
+
+#lagaleriaganadormensual img {
+	border:dotted;
+	border-width:1px;
+	border-color:#fff;
+	
+
+}
+
+
+#bannerfecha {
+	position:absolute;
+	margin-top:29%;
+	margin-left:380px;
+	
+}
+
+#bannerfecha h2 {
+	position:absolute;
+	margin-top:-92%;
+	margin-left:43px;
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:21px;
+	color:#fff;
+	
+}
+
+#lagaleriaganadormensual img {
+	padding-left:20px;
+	
+}
+
+#lagaleriamensual img {
+	border: #FFF;
+	border-style: dotted;
+	border-width:1px;
+	
+}
+
+
+#galeriasemanal {
+	z-index:599;
+	margin-top:13%;
+	text-align:center;
+	
+}
+
+#bannerpremiosemanal {
+	float:left;
+	margin-top:-9%;
+	margin-left:1%;
+	
+}
+
+#bannerpremiodiario {
+	float:left;
+	margin-top:3%;
+	margin-left:15%;
+}
+
+#bannerganadordiario {
+		float:left;
+	margin-top:3%;
+	margin-left:15%;
+	
+}
+
+#lagaleriasemanal img {
+
+	border: #FFF;
+	border-style: dotted;
+	border-width:1px;
+	text-align:center;
+	margin-top:3%;
+	
+}
+
+#lagaleriaganadorsemanal img {
+	border: #FFF;
+	border-style: dotted;
+	border-width:1px;
+	text-align:center;
+	margin-top:3%;
+	
+}
+
+
+
+#lagaleriadiaria {
+	padding-top:12%;
+	margin-left:280px;
+	
+}
+
+#lagaleriadiaria img {
+	border: #FFF;
+	border-style: dotted;
+	border-width:1px;
+}
+
+
+#lagaleriaganadordiario {
+	padding-top:12%;
+	margin-left:280px;
+}
+
+#lagaleriaganadordiario img {
+	border: #FFF;
+	border-style: dotted;
+	border-width:1px;
+}
+
+
+#footer {
+	position: fixed;
+	margin:auto;
+    bottom: 0;
+	left:0;
+    height:80px;
+    width:auto;
+	overflow: hidden;
+	background-color:#072446;
+	padding-top:0px;
+	font-family: "Arial","Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, sans-serif;
+	padding-left:5px;
+	padding-right:5px;
+	z-index:300;
+	
+}
+
+#left {
+	width:65%;
+	float:left;
+}
+
+#left p {
+	font-family:"Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, sans-serif;
+	font-size:9px;
+	color:#ccc;
+	padding-top:5px;
+	text-align:justify;
+	font-style:normal;
+	line-height:9px;
+}
+
+#right {
+	width:35%;
+	float:right;
+}
+
+#zell {
+	padding-top:5px;
+	padding-left:5px;
+	float:left;
+	
+}
+
+#txtcta {
+	padding-top:5px;
+	line-height:15px;
+	margin-left:2%;
+}
+
+#txtcta h3 {
+	font-size:12px;
+	color:#fff;
+	float:left;
+
+	
+}
+
+#txtcta p {
+	font-size:9px;
+	color:#CCC;
+}
+
+#btn {
+	float:right;
+	margin-top:-13%;
+	margin-right:-13%;
+	
+}
+
+
+#btn img{
+    max-width:70%;
+
+
+}
+
+
+

@@ -1,6 +1,6 @@
 ##### ADMINISTRATOR #####
 admin:
-    pattern:  / #Admin
+    pattern:  /admin #Admin
     defaults: { _controller: LandingPagesCoreBundle:Default:admin }
 
 admin_login:
@@ -46,9 +46,6 @@ web_ajax_chechbox:
     defaults: { _controller: LandingPagesCoreBundle:Ctg:checkbox }
 
 ##### TODOSGANAN #####
-web_ctg:
-    pattern:  /ctg #Sitio CTG
-    defaults: { _controller: LandingPagesCoreBundle:Ctg:inicio }
 
 web_ctg_pages:
     pattern:  /{page}.html
